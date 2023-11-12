@@ -1,0 +1,28 @@
+DENETLEYİCİ
+#include <iostream>       Tahminim: Bence ilk baştaki işlemi yaparsak istenilen doğru sonuca ulaşamayız fakat ikinci işleme geçersek,
+                          13-1 /2=6 Cevap:6 Çıktı:6
+using namespace std;
+int main()
+{
+    int sayi= 13;
+    if (sayi % 2==0)
+        cout << sayi /2;
+    else
+        cout << (sayi -1) /2;
+}
+KODLAMA
+#include <iostream>
+using namespace std;
+int main()
+{
+    int sayi;
+    cin >> sayi;
+    if (sayi>10)
+     sayi =sayi -10;
+     else
+     sayi = sayi +10;
+    cout << sayi;
+}
+ANALİZCİ 
+Bence girilen sayının yarısı bulunmak isteniyor. Aslında ilk işlemde bölme işleminin sonucu sıfıra eşit olması, ikinci işlemde ise
+1 sayısı çıkarılıyor ve çıkan sonucun yarısı alınmak isteniyor.
